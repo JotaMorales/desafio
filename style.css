@@ -1,10 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'poppins' !important;
 }
 
 body {
     text-align: center;
+    width: 100%;
 }
 
 
@@ -17,7 +19,7 @@ body {
 
 header {
     height: 100px;
-    background: #0B046B;
+    background: #043353;
     width: 100%;
     z-index: 12;
     position: fixed;
@@ -34,8 +36,7 @@ header {
 .logo a {
     text-decoration: none;
     font-size: 30px;
-    font-family: 'Fredoka One', cursive;
-    color: #f6b93b;
+    color: #e4dfcd;
     letter-spacing: 5px;
     margin-top: 30px;
     width: 100px;
@@ -57,16 +58,15 @@ nav {
 
 nav a {
     text-decoration: none;
-    font-family: 'Fredoka One', cursive;
     letter-spacing: 4px;
     font-size: 20px;
     margin: 0 10px;
-    color: #f6b93b;
+    color: #e4dfcf;
 }
 
 nav a:hover {
     text-decoration: none;
-    background: #a52a2a;
+    background: #e44652;
     padding: 10px;
     border-radius: 50px;
     transition: all 0.3s ease-out 0s;
@@ -95,20 +95,20 @@ nav a:hover {
 }
 
 .contentArea {
-    width: 100%;
+    width: 1320px;
     position: relative;
     top: 450px;
-    background-color: #ddd;
+    background-color: #e4dfcf;
     height: 700px;
     opacity: 0.9;
     border-radius: 20px;
 }
 
 .contentArea1 {
-    width: 100%;
+    width: 1320px;
     position: relative;
     top: 450px;
-    background-color: #ddd;
+    background-color: #e4dfcf;
     height: 850px;
     opacity: 0.9;
     border-radius: 20px;
@@ -124,6 +124,8 @@ nav a:hover {
 }
 
 .contentArea h2 {
+    color: #e44652;
+    text-align: center;
     font-family: 'poppins' sans-serif;
     font-size: 24px;
     letter-spacing: 4px;
@@ -138,24 +140,25 @@ nav a:hover {
 /*seccion eventos*/
 
 .eventosNuestros {
-    width: 100%;
+    width: 1320px;
     position: relative;
-    top: 450px;
-    background-color: #0B046B;
+    top: 465px;
+    background-color: #043353;
     height: 1200px;
-    color: #ddd;
+    color: #e4dfcf;
     opacity: .75;
+    border-radius: 20px;
 }
 
 .eventosNuestros1 {
-    width: 100%;
+    width: 1320px;
     position: relative;
     display: flex;
     justify-content: center;
     top: 100px;
-    background-color: #0B046B;
+    background-color: #043353;
     height: 800px;
-    color: #ddd;
+    color: #e44652;
     opacity: .75;
 }
 
@@ -176,7 +179,7 @@ nav a:hover {
 
 h2 {
     font-family: 'popins' sans-serif;
-    color: #f6b93b;
+    color: #e44652;
     font-size: 22px !important;
     text-align: center;
     text-decoration: none;
@@ -193,7 +196,6 @@ h2 {
 }
 
 .videoEventos {
-    background-color: black;
     object-fit: fill;
     height: 400px;
     margin-bottom: 100px;
@@ -257,7 +259,7 @@ figure.videoSet {
 }
 
 .section-table div {
-    background: blue;
+    background: #043353;
     padding: 1em;
     border-radius: 10px;
     opacity: 0.75;
@@ -271,15 +273,15 @@ figure.videoSet {
     background: linear-gradient(to bottom, #eb5757, #000000);
     font-family: 'poppins' sans-serif;
     font-weight: 500;
-    font-size: 15pt;
+    font-size: 12pt;
     text-align: center;
-    color: whitesmoke;
+    color: #e4dfcf;
 }
 
 .menu-tabla {
     text-align: center;
-    color: whitesmoke;
-    font-size: 15pt;
+    color: #faf8f0;
+    font-size: 10pt;
 }
 
 .contenido-tabla:hover {
@@ -288,13 +290,13 @@ figure.videoSet {
 
 .section-table .tipo {
     font-size: 15pt;
-    color: whitesmoke;
+    color: #e4dfcf;
     text-align: center;
 }
 
 .section-table .lista-tabla {
-    font-size: 15pt;
-    color: whitesmoke;
+    font-size: 10pt;
+    color: #e4dfcf;
     text-align: center;
     list-style: none;
 }
@@ -307,11 +309,12 @@ figure.videoSet {
 .contenedor-tabla {
     width: 100%;
     height: fit-content;
-    margin-left: 120px;
+    margin-left: 180px;
     padding: 10px;
 }
 
 .asesoriasMenu h2 {
+    color: #e44652 !important;
     font-family: 'poppins' sans-serif;
     letter-spacing: 4px;
     padding-top: 30px;
@@ -369,9 +372,9 @@ section {
 
 .footer-basic {
     padding: 30px 0;
-    width: 100%;
-    background-color: #a52a2a;
-    color: white;
+    width: 1320px;
+    background-color: #e44652;
+    color: #faf8f0;
     position: relative;
     bottom: 0;
     margin-bottom: 0px;
@@ -427,7 +430,7 @@ section {
     margin-top: 15px;
     text-align: center;
     font-size: 13px;
-    color: #aaa;
+    color: #e4dfcf;
     margin-bottom: 0;
 }
 
@@ -443,7 +446,7 @@ section {
 .menuBar {
     width: 100%;
     height: 160px;
-    background-color: whitesmoke;
+    background-color: #faf8f0;
     display: inline-block;
 }
 
@@ -463,6 +466,7 @@ section {
 }
 
 .contactoFooter {
+    color: #043353;
     margin: 20px 20px;
     padding: 10px;
     text-transform: uppercase;
@@ -475,7 +479,7 @@ h2 a {
     text-transform: uppercase;
     letter-spacing: 4px;
     text-decoration: none;
-    color: #f6b93b;
+    color: #e44652;
 }
 
 .contentAreaNos {
@@ -498,14 +502,14 @@ figure {
 }
 
 figcaption {
-    color: white;
+    color: #043353;
     transition: all 0.3s ease 0s;
     font-weight: bold;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(250, 248, 240, 0.5);
     position: absolute;
     left: 0px;
     bottom: -400px;
-    width: 90%;
+    width: 100%;
     padding: 5%;
     border-radius: 20px;
 }
@@ -519,7 +523,7 @@ figure:hover figcaption {
 
 .contactoTitle {
     font-family: 'popins' sans-serif;
-    color: #f6b93b;
+    color: #faf8f0;
     font-size: 22px;
     text-align: center;
     text-decoration: none;
@@ -546,7 +550,7 @@ figure:hover figcaption {
 
 h4 {
     font-family: 'popins' sans-serif;
-    color: #f6b93b;
+    color: #faf8f0;
     font-size: 15px;
     text-align: center;
     text-decoration: none;
@@ -561,15 +565,15 @@ legend {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
-    color: #f6b93b;
+    color: #e4dfcf;
 }
 
 .botonE {
-    background: linear-gradient(to right, #780206, #061161);
+    background: linear-gradient(to right, #e44652, #043353);
     font-family: 'poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: white;
+    color: #faf8f0;
     text-decoration: none;
     width: 80px;
     border-radius: 10px;
@@ -584,7 +588,7 @@ legend {
     font-family: 'poppins' sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #f6b93b;
+    color: #e4dfcf;
     margin-bottom: 20px;
 }
 
@@ -613,7 +617,7 @@ legend {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: red;
+    color: #e44652;
     font-size: 2em;
     transition: .3s ease-in-out;
     cursor: pointer;
@@ -658,11 +662,11 @@ legend {
 
 .action ul li:hover {
     font-weight: bold;
-    color: blue;
+    color: #043353;
 }
 
 .action ul li:not(:last-child) {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(4, 51, 83, 0.1);
 }
 
 .action ul li img {
@@ -679,3 +683,65 @@ legend {
     display: flex;
     justify-content: center;
 }
+
+
+/*medias querys*/
+
+@media (max-width: 480px) {
+    .menuNav {
+        width: 1170px;
+        margin: 0 auto;
+    }
+    header {
+        height: 100px;
+        background: #043353;
+        width: 100%;
+        z-index: 12;
+        position: fixed;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .logo {
+        width: 30%;
+        float: left;
+        line-height: 100px;
+    }
+    .logo a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #e4dfcd;
+        margin-top: 30px;
+        width: 100px;
+        height: 39px;
+        text-indent: -9999px;
+    }
+    .logo img {
+        overflow: hidden;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+    nav {
+        float: right;
+        line-height: 100px;
+    }
+    nav a {
+        text-decoration: none;
+        letter-spacing: 4px;
+        font-size: 10px;
+        margin: 0 10px;
+        color: #e4dfcf;
+    }
+    nav a:hover {
+        text-decoration: none;
+        background: #e44652;
+        padding: 10px;
+        border-radius: 50px;
+        transition: all 0.3s ease-out 0s;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 1024px) {}
