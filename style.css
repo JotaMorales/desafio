@@ -95,7 +95,7 @@ nav a:hover {
 }
 
 .contentArea {
-    width: 1320px;
+    width: 100%;
     position: relative;
     top: 450px;
     background-color: #e4dfcf;
@@ -105,11 +105,11 @@ nav a:hover {
 }
 
 .contentArea1 {
-    width: 1320px;
+    width: 100%;
     position: relative;
     top: 450px;
     background-color: #e4dfcf;
-    height: 850px;
+    height: 1000px;
     opacity: 0.9;
     border-radius: 20px;
 }
@@ -140,9 +140,9 @@ nav a:hover {
 /*seccion eventos*/
 
 .eventosNuestros {
-    width: 1320px;
+    width: 100%;
     position: relative;
-    top: 465px;
+    top: 530px;
     background-color: #043353;
     height: 1200px;
     color: #e4dfcf;
@@ -151,7 +151,7 @@ nav a:hover {
 }
 
 .eventosNuestros1 {
-    width: 1320px;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -198,13 +198,13 @@ h2 {
 .videoEventos {
     object-fit: fill;
     height: 400px;
-    margin-bottom: 100px;
+    margin: 100px;
 }
 
 figure.videoSet {
     background-color: black;
     display: flex;
-    left: 350px;
+    left: 450px;
     padding: 0;
     box-shadow: 0px 0px 10px 5px orangered;
     border-radius: 10px;
@@ -307,10 +307,12 @@ figure.videoSet {
 }
 
 .contenedor-tabla {
+    position: relative;
+    top: -10px;
     width: 100%;
     height: fit-content;
     margin-left: 180px;
-    padding: 10px;
+    padding: 0px;
 }
 
 .asesoriasMenu h2 {
@@ -356,7 +358,7 @@ section {
 
 .imagenReel {
     display: flex;
-    margin: 0px;
+    margin: 0px 60px;
     flex-wrap: nowrap;
     justify-content: flex-start;
 }
@@ -372,7 +374,7 @@ section {
 
 .footer-basic {
     padding: 30px 0;
-    width: 1320px;
+    width: 100%;
     background-color: #e44652;
     color: #faf8f0;
     position: relative;
@@ -455,6 +457,7 @@ section {
     height: 40px;
     overflow: hidden;
     border-radius: 50%;
+    list-style: none;
 }
 
 .logoFooter:hover {
@@ -608,6 +611,7 @@ legend {
     background: #fff;
     border-radius: 50%;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+    z-index: 999999;
 }
 
 .action span {
@@ -701,57 +705,6 @@ legend {
     }
     .grid1 {
         display: none;
-    }
-    .eventosNuestros1 {
-        width: 480px;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        top: 150px;
-        background-color: #043353;
-        height: 100vh;
-        color: #e44652;
-        opacity: .75;
-    }
-    .eventosNuestros h2 {
-        font-family: 'poppins' sans-serif;
-        font-size: 30px;
-        letter-spacing: 4px;
-        padding-top: 30px;
-        font-size: 40px;
-        margin: 0;
-    }
-    .eventosNuestros p {
-        padding: 2% 0;
-        font-family: 'poppins' sans-serif;
-        line-height: 30px;
-    }
-    img.cocineros {
-        width: 200px;
-        height: 100px;
-        margin: 7px;
-        border-radius: 10px;
-        background: black;
-    }
-    figure {
-        display: inline-block;
-        position: relative;
-        overflow: hidden;
-    }
-    figcaption {
-        color: #043353;
-        transition: all 0.3s ease 0s;
-        font-weight: bold;
-        background: rgba(250, 248, 240, 0.5);
-        position: absolute;
-        left: 0px;
-        bottom: -400px;
-        width: 100%;
-        padding: 5%;
-        border-radius: 20px;
-    }
-    figure:hover figcaption {
-        bottom: 0px;
     }
 }
 
