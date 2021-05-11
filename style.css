@@ -188,13 +188,6 @@ h2 {
     justify-content: center;
 }
 
-.asideImage {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 2px 0 2px 0px;
-}
-
 .videoEventos {
     object-fit: fill;
     height: 400px;
@@ -330,6 +323,9 @@ figure.videoSet {
 
 .asesoriasMenu {
     width: 100%;
+    height: 400px;
+    background-color: #e4dfcf;
+    border-radius: 20px;
 }
 
 .asesoriasSection {
@@ -755,11 +751,136 @@ legend {
 
 /*medias querys*/
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+    .bannerArea {
+        background-image: url(./imgeventos/fondomobile.jpg);
+        object-fit: cover;
+    }
+    .menu-mobile {
+        float: left;
+        display: inline;
+        padding: 15px 100px 15px 50px;
+        margin: 15px auto;
+    }
+    nav a {
+        display: none;
+    }
+    .grid1 {
+        display: none;
+    }
+    .grid4 {
+        display: none;
+    }
+    .grid5 {
+        display: none;
+    }
+    .grid6 {
+        display: none;
+    }
+    .grid7 {
+        display: none;
+    }
+    .grid8 {
+        display: none;
+    }
+    .contentArea {
+        height: 200vh;
+    }
+    .asesoriaMobile {
+        display: none;
+    }
+    .mobile-img {
+        display: none;
+    }
+    .evento1 {
+        display: none;
+    }
+    .evento2 {
+        display: none;
+    }
+    .evento3 {
+        display: none;
+    }
+    .evento4 {
+        padding: 0;
+        margin: 0;
+    }
+    .evento5 {
+        display: none;
+    }
+    .video__set {
+        display: none;
+    }
+}
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .bannerArea {
+        background-image: url(./imgeventos/fondomobile.jpg);
+        object-fit: cover;
+    }
+    .menu-mobile {
+        float: left;
+        display: inline;
+        padding: 15px 50px 15px 500px;
+        margin: 15px auto;
+    }
+    nav a {
+        display: none;
+    }
+    .grid1 {
+        display: none;
+    }
+    .grid4 {
+        display: none;
+    }
+    .grid5 {
+        display: none;
+    }
+    .grid6 {
+        display: none;
+    }
+    .grid8 {
+        display: none;
+    }
+    .contentArea {
+        height: 200vh;
+    }
+    .asesoriaMobile {
+        display: none;
+    }
+    .evento1 {
+        display: none;
+    }
+    .evento3 {
+        display: none;
+    }
+    .evento5 {
+        display: none;
+    }
+    .video__set {
+        display: none;
+    }
+}
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+    .bannerArea {
+        background-image: url(./imgeventos/fondomobile.jpg);
+        object-fit: cover;
+    }
+    .menu-mobile {
+        float: left;
+        position: fixed;
+        display: inline;
+        padding: 15px 50px 15px 50px;
+        margin: 15px auto;
+    }
+    nav a {
+        display: none;
+    }
+    .asesoriaMobile {
+        display: none;
+    }
+}
 
 .card-columns {
     @include media-breakpoint-only(lg) {
