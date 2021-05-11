@@ -752,6 +752,20 @@ legend {
 /*medias querys*/
 
 @media screen and (max-width: 480px) {
+    .action {
+        opacity: 1;
+    }
+    .miniaturasImg {
+        display: inline-block;
+        border-radius: 10px;
+    }
+    .miniatura--cocinero {
+        position: relative;
+        border-radius: 20px;
+    }
+    .cocinero {
+        display: none;
+    }
     .bannerArea {
         background-image: url(./imgeventos/fondomobile.jpg);
         object-fit: cover;
@@ -811,9 +825,26 @@ legend {
     .video__set {
         display: none;
     }
+    .imagenReel {
+        padding-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .action {
+        opacity: 1;
+    }
+    .miniaturasImg {
+        display: inline-block;
+        border-radius: 10px;
+    }
+    .miniatura--cocinero {
+        position: relative;
+        border-radius: 20px;
+    }
+    .cocinero {
+        display: none;
+    }
     .bannerArea {
         background-image: url(./imgeventos/fondomobile.jpg);
         object-fit: cover;
@@ -860,9 +891,26 @@ legend {
     .video__set {
         display: none;
     }
+    .imagenReel {
+        padding-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
+    .action {
+        opacity: 1;
+    }
+    .miniaturasImg {
+        display: inline-block;
+        border-radius: 10px;
+    }
+    .miniatura--cocinero {
+        position: relative;
+        border-radius: 20px;
+    }
+    .cocinero {
+        display: none;
+    }
     .bannerArea {
         background-image: url(./imgeventos/fondomobile.jpg);
         object-fit: cover;
@@ -879,6 +927,42 @@ legend {
     }
     .asesoriaMobile {
         display: none;
+    }
+    .grid1 {
+        display: none;
+    }
+    .grid4 {
+        display: none;
+    }
+    .grid5 {
+        display: none;
+    }
+    .grid6 {
+        display: none;
+    }
+    .grid8 {
+        display: none;
+    }
+    .contentArea {
+        height: 200vh;
+    }
+    .asesoriaMobile {
+        display: none;
+    }
+    .evento1 {
+        display: none;
+    }
+    .evento3 {
+        display: none;
+    }
+    .evento5 {
+        display: none;
+    }
+    .video__set {
+        display: none;
+    }
+    .imagenReel {
+        padding-bottom: 40px;
     }
 }
 
