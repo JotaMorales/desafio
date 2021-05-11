@@ -318,6 +318,11 @@
       margin: 0;
       display: flex;
       justify-content: center;
+      width: 100%;
+  }
+  
+  .asesoriasMenu {
+      width: 100%;
   }
   
   .asesoriasSection {
