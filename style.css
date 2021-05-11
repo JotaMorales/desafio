@@ -802,8 +802,8 @@ legend {
         display: none;
     }
     .evento4 {
-        padding: 0;
-        margin: 0;
+        padding: 0px 0px 50px 0px;
+        margin: 0px 0px 80px 0px;
     }
     .evento5 {
         display: none;
