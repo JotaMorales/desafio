@@ -450,10 +450,9 @@ section {
     text-decoration: none;
 }
 
-
-/*.footer-basic .footer-basic .social>a:hover {
-      opacity: 0.9;
-  }*/
+.footer-basic .footer-basic .social>a:hover {
+    opacity: 0.9;
+}
 
 .footer-basic .copyright {
     margin-top: 15px;
