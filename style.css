@@ -769,6 +769,9 @@ legend {
         background-image: url(./imgeventos/fondomobile.jpg);
         object-fit: cover;
     }
+    .footer-basic {
+        bottom: 0;
+    }
     .menu-mobile {
         float: left;
         display: inline;
@@ -858,6 +861,9 @@ legend {
         background-image: url(./imgeventos/fondomobile.jpg);
         object-fit: cover;
     }
+    .footer-basic {
+        bottom: 0%;
+    }
     .menu-mobile {
         float: left;
         display: inline;
@@ -927,9 +933,6 @@ legend {
     .bannerArea {
         background-image: url(./imgeventos/fondomobile.jpg);
         object-fit: cover;
-    }
-    .contentArea {
-        height: 80vh;
     }
     .menu-mobile {
         float: left;
