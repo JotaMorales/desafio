@@ -783,9 +783,13 @@ legend {
     }
     .grid2 {
         border-radius: 10px;
+        width: 108px;
+        height: 150px;
     }
     .grid3 {
         border-radius: 10px;
+        width: 108px;
+        height: 150px;
     }
     .grid4 {
         display: none;
