@@ -710,12 +710,12 @@ legend {
 
 .action ul li img {
     margin-right: 10px;
-    opacity: .8;
+    opacity: 1;
     transform: scale(0.8);
 }
 
 .action ul li:hover {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .php {
@@ -752,7 +752,7 @@ legend {
 /*medias querys*/
 
 @media screen and (max-width: 480px) {
-    .action {
+    .iconosFloat {
         opacity: 1;
     }
     .miniaturasImg {
@@ -773,7 +773,7 @@ legend {
     .menu-mobile {
         float: left;
         display: inline;
-        padding: 15px 100px 15px 50px;
+        padding: 15px 130px 15px 50px;
         margin: 15px auto;
     }
     nav a {
@@ -781,6 +781,12 @@ legend {
     }
     .grid1 {
         display: none;
+    }
+    .grid2 {
+        border-radius: 10px;
+    }
+    .grid3 {
+        border-radius: 10px;
     }
     .grid4 {
         display: none;
@@ -798,7 +804,7 @@ legend {
         display: none;
     }
     .contentArea {
-        height: 200vh;
+        height: 50vh;
     }
     .asesoriaMobile {
         display: none;
@@ -822,6 +828,9 @@ legend {
     .evento5 {
         display: none;
     }
+    .links--social {
+        display: none;
+    }
     .video__set {
         display: none;
     }
@@ -831,12 +840,13 @@ legend {
 }
 
 @media screen and (max-width: 768px) {
-    .action {
+    .iconosFloat {
         opacity: 1;
     }
     .miniaturasImg {
         display: inline-block;
         border-radius: 10px;
+        padding: 50px;
     }
     .miniatura--cocinero {
         position: relative;
@@ -874,7 +884,7 @@ legend {
         display: none;
     }
     .contentArea {
-        height: 200vh;
+        height: 100vh;
     }
     .asesoriaMobile {
         display: none;
@@ -888,6 +898,9 @@ legend {
     .evento5 {
         display: none;
     }
+    .links--social {
+        display: none;
+    }
     .video__set {
         display: none;
     }
@@ -897,12 +910,13 @@ legend {
 }
 
 @media screen and (max-width: 1024px) {
-    .action {
+    .iconosFloat {
         opacity: 1;
     }
     .miniaturasImg {
         display: inline-block;
         border-radius: 10px;
+        padding: 50px;
     }
     .miniatura--cocinero {
         position: relative;
@@ -914,6 +928,9 @@ legend {
     .bannerArea {
         background-image: url(./imgeventos/fondomobile.jpg);
         object-fit: cover;
+    }
+    .contentArea {
+        height: 80vh;
     }
     .menu-mobile {
         float: left;
@@ -956,6 +973,9 @@ legend {
         display: none;
     }
     .evento5 {
+        display: none;
+    }
+    .links--social {
         display: none;
     }
     .video__set {
