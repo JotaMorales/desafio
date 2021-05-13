@@ -747,6 +747,13 @@ legend {
     margin: 15px;
 }
 
+.azul {
+    background-color: #043353;
+    width: 100%;
+    height: 400px;
+    z-index: 9999999;
+}
+
 
 /*medias querys*/
 
@@ -806,7 +813,7 @@ legend {
         display: none;
     }
     .contentArea {
-        height: 100vh;
+        height: 200vh;
     }
     .asesoriaMobile {
         display: none;
@@ -877,10 +884,10 @@ legend {
         display: none;
     }
     .grid4 {
-        display: none;
+        display: inline;
     }
     .grid5 {
-        display: none;
+        display: inline;
     }
     .grid6 {
         display: none;
@@ -895,9 +902,6 @@ legend {
         display: none;
     }
     .evento1 {
-        display: none;
-    }
-    .evento3 {
         display: none;
     }
     .evento5 {
@@ -963,7 +967,7 @@ legend {
         display: none;
     }
     .contentArea {
-        height: 200vh;
+        height: 100vh;
     }
     .asesoriaMobile {
         display: none;
@@ -975,7 +979,7 @@ legend {
         display: none;
     }
     .evento5 {
-        display: none;
+        display: inline;
     }
     .links--social {
         display: none;
