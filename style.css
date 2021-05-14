@@ -793,12 +793,12 @@
         }
         .eventosNuestros {
             position: relative;
-            top: 550px;
+            top: 1000px;
+        }
+        .eventos--mobile {
+            top: 350px;
         }
         .asesoriaMobile {
-            display: none;
-        }
-        .mobile-img {
             display: none;
         }
         .links--social {
@@ -811,11 +811,11 @@
             padding-bottom: 40px;
         }
         p {
-            font-size: 12px;
+            font-size: 11px;
             line-height: 0.5;
         }
         .texto--color {
-            font-size: 15px;
+            font-size: 12px;
             line-height: normal;
         }
         h2 {
@@ -828,6 +828,9 @@
         }
         .menuNav {
             top: 0px;
+        }
+        .asesoriasMenu {
+            height: 600px;
         }
     }
     
