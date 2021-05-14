@@ -793,7 +793,7 @@
         }
         .eventosNuestros {
             position: relative;
-            top: 850px;
+            top: 550px;
         }
         .asesoriaMobile {
             display: none;
@@ -811,12 +811,12 @@
             padding-bottom: 40px;
         }
         p {
-            font-size: 10px;
+            font-size: 15px;
             line-height: 0.5;
         }
-        p .texto--color {
-            font-size: 12px !important;
-            line-height: normal !important;
+        .texto--color {
+            font-size: 20px;
+            line-height: normal;
         }
         h2 {
             font-size: 12px;
