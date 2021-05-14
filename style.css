@@ -811,11 +811,11 @@
             padding-bottom: 40px;
         }
         p {
-            font-size: 15px;
+            font-size: 12px;
             line-height: 0.5;
         }
         .texto--color {
-            font-size: 20px;
+            font-size: 15px;
             line-height: normal;
         }
         h2 {
@@ -833,11 +833,11 @@
     
     @media screen and (max-width: 480px) {
         p {
-            font-size: 15px;
+            font-size: 12px;
             line-height: 0.5;
         }
         h2 {
-            font-size: 20px;
+            font-size: 16px;
             padding: 0px;
         }
         .iconosFloat {
